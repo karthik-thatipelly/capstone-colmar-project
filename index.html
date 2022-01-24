@@ -15,14 +15,17 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-light bg-light" style="height:64px;">
+
+        <!--ALTERNATE NAV SECTION-->
+
+        <!-- <nav class="navbar navbar-light bg-light" style="height:64px;">
             <div class="navbar-brand" href="#">
                 <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-logo.svg"
                     width="30" height="32" class="d-inline-block align-center">
                 <div class="d-none d-lg-inline-block"><strong>COLMAR</strong><span class="text-secondary">ACADEMY</span>
                 </div>
             </div>
-            <ul class="nav justify-content-end" style="padding-left:8px; padding-right:8px">
+            <ul class="nav" style="padding-left:8px; padding-right:8px">
                 <li class="nav-item">
                     <a class="nav-link" href="#"><img
                             src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-on-campus.svg"
@@ -42,7 +45,53 @@
                             class="d-inline-block d-lg-none"><span class="d-lg-inline-block d-none">Sign In</span></a>
                 </li>
             </ul>           
+        </nav>  -->
+
+        <!--NAVIGATION SECTION-->
+
+        <div class="row d-lg-none text-center" style="height: 64px;padding-top: 16px">  
+            <div class="col">
+                <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-logo.svg"
+                width="30" height="32">
+            </div>
+            <div class="col">
+                <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-on-campus.svg">
+                   
+            </div>
+            <div class="col">
+                <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-online.svg">    
+            </div>
+            <div class="col">
+                <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-login.svg">   
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-light d-none d-lg-flex" style="height:64px;">
+            <div class="navbar-brand" href="#">
+                <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\ic-logo.svg"
+                    width="30" height="32" class="d-inline-block align-center">
+                <div class="d-none d-lg-inline-block"><strong>COLMAR</strong><span class="text-secondary">ACADEMY</span>
+                </div>
+            </div>
+            <ul class="nav" style="padding-left:8px; padding-right:8px">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">On Campus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">For Companies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+            </ul>           
         </nav>
+
+        <!--END OF NAVIGATION SECTION-->
+
+        <!--WEBSITE CONTENT-->
+
         <div class="row alert alert-secondary align-items-center">
             <div class="col-12 col-lg-7">
                 <img src="F:\codecademy projects\capstone_colmar_project\capstone_colmar_assets\images\banner.jpg"
@@ -260,6 +309,8 @@
             <div class="col-auto" style="padding: 16px;"><span>Privacy</span></div>
         </div>
     </div>
+
+    <!--END OF WEBSITE CONTENT-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
